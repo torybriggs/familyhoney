@@ -1,4 +1,4 @@
-title: Heroku And the Ease of Publishing
+title: My Heroku Powered Site
 author: Tory Briggs
 date: 2011/01/12
 
