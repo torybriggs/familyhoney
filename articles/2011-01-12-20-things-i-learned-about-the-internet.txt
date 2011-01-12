@@ -5,7 +5,7 @@ date: 12/01/2011
 A very nice site that describes the basics of the Interent.  Only modern browsers will render it correctly.
 
 
-> Web pages are written in HTML, the web programming language that tells web browsers how to >structure and present content on a web page. In other words, HTML provides the basic building blocks >for the web.
+> Web pages are written in HTML, the web programming language that tells web browsers how to structure and present content on a web page. In other words, HTML provides the basic building blocks for the web.
 
 
 [20 Things I learned about the Internet](http://www.20thingsilearned.com/ "20 Things I learned")
