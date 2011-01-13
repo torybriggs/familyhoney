@@ -1,9 +1,49 @@
+@font-face {
+	font-family: 'NeutonRegular';
+	src: url('Neuton-webfont.eot');
+	src: local('☺'), url('Neuton-webfont.woff') format('woff'), url('Neuton-webfont.ttf') format('truetype'), url('Neuton-webfont.svg#webfont8fs47wLc') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NobileRegular';
+	src: url('nobile-webfont.eot');
+	src: local('☺'), url('nobile-webfont.woff') format('woff'), url('nobile-webfont.ttf') format('truetype'), url('nobile-webfont.svg#webfontsKo9tqe9') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NobileItalic';
+	src: url('nobile_italic-webfont.eot');
+	src: local('☺'), url('nobile_italic-webfont.woff') format('woff'), url('nobile_italic-webfont.ttf') format('truetype'), url('nobile_italic-webfont.svg#webfonttc09wOXW') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NobileBold';
+	src: url('nobile_bold-webfont.eot');
+	src: local('☺'), url('nobile_bold-webfont.woff') format('woff'), url('nobile_bold-webfont.ttf') format('truetype'), url('nobile_bold-webfont.svg#webfont6RUKcuF0') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NobileBoldItalic';
+	src: url('nobile_bold_italic-webfont.eot');
+	src: local('☺'), url('nobile_bold_italic-webfont.woff') format('woff'), url('nobile_bold_italic-webfont.ttf') format('truetype'), url('nobile_bold_italic-webfont.svg#webfontClxEK9et') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html { margin: 20px }
 body {
   margin: 0 auto;
-  font-family: 'Baskerville', Georgia, Times, serif;
-  font-size: 20px;
-  line-height: 30px;
+  font-family: 'NobileRegular', Helvetica, arial, sans serif;
+  font-size: 16px;
+  line-height: 25px;
   padding: 15px;
   width: 720px;
 
@@ -11,7 +51,8 @@ body {
 header, footer, section, article {
 	display: block;
 }
-#content {
+.content {
+	margin-top: 50px;
 }
 #by {
 	font-style: italic;
@@ -28,9 +69,10 @@ header, footer, section, article {
 }
 .date {
   font-style: italic;
-  float: right;
+  float: left;
   line-height: 43px;
   margin-right: 30px;
+  font-family: 'Baskerville', Georgia, Times, serif;
 }
 a {
   color: #b83000;
@@ -38,6 +80,7 @@ a {
 h1 a {
   color: black;
   text-decoration: none;
+  font-family: 'NeutonRegular';
 }
 a:hover {
   text-decoration: underline;
@@ -84,7 +127,6 @@ body > header {
 	margin-bottom: 20px;
 }
 h1, h2, h3, h4 {
-  display: inline;
   margin: 0;
   font-weight: 600;
 }
@@ -104,7 +146,8 @@ blockquote {
 body > footer {
   text-align: left;
   margin-left: 10px;
-	font-style: italic;
+  font-style: italic;
   font-size: 18px;
   color: #888;
+  font-family: 'Baskerville', Georgia, Times, serif;
 }
