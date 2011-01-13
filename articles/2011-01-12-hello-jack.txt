@@ -1,5 +1,0 @@
---- 
-title: Hello Jack
-date: 12/01/2011
-
-Jack is so cool
